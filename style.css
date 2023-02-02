@@ -1,0 +1,196 @@
+
+body {
+    background-color: #fff0e6;
+    /*color:#F8F8F8*/
+    margin: 0;
+    text-align: center;
+    
+    }
+    hr {
+      border: 5px dotted  #616161;
+      
+    }
+    ul {
+      list-style-type: none;
+    }
+    
+    /** section from "image -> animation"*/
+    h1 {
+      font-family: 'Italiana';
+      font-size: 2.8em;
+    }
+    
+    h3 {
+      font-family: 'Italiana';
+      font-size: 2.8em;
+    
+    }
+    .middle h2 {
+      color: #616161;
+    
+    }
+    .top h2 {
+      font-family: 'Roboto';
+      /**come back to this */
+      font-weight: 50;
+      font-size: 1.8em;
+    }
+    .profile {
+      margin-top: -60px;
+    }
+    
+    .top {
+      position:absolute;
+      padding: 150px;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    
+      .middle h2 {
+        font-family: 'Italiana';
+        /**come back to this */
+        font-weight: 100;
+        font-size: 2.8em;
+      }
+      .middle h3 {
+        font-family: 'Roboto';
+        font-size: 24px;
+        color: #616161;
+      }
+      .middle {
+        margin: 3cm auto 3cm;
+        width: 550px;
+        text-align: center;
+      }
+    
+      .image-column-left {
+        display: inline-block;
+        width: 45%;
+        text-align: right;
+    }
+    .tag {
+      text-align: left;
+    }
+    .tag1 {
+      text-align: left;
+    }
+    
+    
+    .image-column-right {
+        width: 50%;
+        text-align: left;
+        float: right;
+    }
+    
+    
+    .skills-image {
+      display: inline-block;
+        width: 20%;
+        text-align: right;
+        padding-bottom: 40px;
+        margin-right: -300px;
+    }
+    .clubs{
+      border: solid #fff0e6;
+      border-radius: 250px
+    }
+    .skills-column {
+      
+      width: 75%;
+      text-align: left;
+      
+      float: right;
+    
+      margin-top: -200px;
+      
+     margin-left: -200px;
+     
+    }
+    
+    .bottom {
+      background-color: #ffffff20;
+      
+        text-align: center;
+    }
+    .bottom hr {
+      margin: 50px auto 50px auto ;
+      width: 2000px;
+      position: relative;
+      
+    }
+    .bottom p {
+      font-size: 12px;
+    }
+    
+    
+    /** repeat animation*/
+    
+    a {
+      text-decoration:none;
+      font-weight: bold;
+      background: transparent;
+      color: #171616;
+    }
+    a {
+      text-decoration: none;
+    }
+    
+    a:link {
+    color: #0d0c0b;
+    }
+    
+    a:visited {
+    color:#070504;
+    }
+    
+    a:hover {
+    background-color: #616161;
+    
+    }
+    
+    .button {
+        background: burlywood;
+        position: relative;
+        padding: 2px 6px 2px 6px;
+        float:center;
+        text-align: center;
+        border-radius: 10px;
+        text-decoration: none;
+        color: white;
+        position:relative;
+    }
+    .button:hover {
+        background-color: black;
+        color:burlywood;
+        border: none
+    }
+    
+    
+    /**
+    * Comtact Page Styling
+    */
+       
+      .column {
+        
+        display: inline-block;
+        width: 75%;
+        margin-left: -50px;
+        text-align: center;
+        
+      }
+      .column-left p {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 18px;
+        
+      }
+      
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      
+    
+    
